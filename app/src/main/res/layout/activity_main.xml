@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/app_name"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_principal"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_rate"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etYears"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_years"
+            android:inputType="number"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etMonthly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_monthly"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="12dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/green"
+            android:text="@string/btn_calculate"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/red"
+            android:text="@string/btn_reset"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Compound Interest Calculator</string>
+    <string name="hint_principal">Principal Amount ($)</string>
+    <string name="hint_rate">Annual Interest Rate (%)</string>
+    <string name="hint_years">Time Period (years)</string>
+    <string name="hint_monthly">Monthly Contribution (optional)</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="btn_reset">Reset</string>
+</resources>
